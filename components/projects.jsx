@@ -18,7 +18,7 @@ const Projects = () => {
         'Aahvaan is the annual sports fest of DTU hosted by the Sports Council of DTU. Developed in NextJS and TailwindCSS. Hosted on Vercel. Backend was developed on MongoDB and ExpressJS.'
     ]
   return (
-    <div className='w-full h-full relative flex flex-col bg-[#252a25] rounded-[4rem] p-20 mt-2 text-[#e2e2e2] gap-8'>
+    <div className='w-full h-full relative flex flex-col bg-[#252a25] rounded-[4rem] p-20 mt-2 text-[#e2e2e2] gap-8' id='projects'>
         <h2 className='font-sonder text-7xl'>
             Projects
         </h2>

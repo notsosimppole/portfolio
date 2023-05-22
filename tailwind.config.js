@@ -38,14 +38,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-scrollbar-hide'),
-    plugin(function ({ addUtilities }) {
-      const newUtilities = {
-        '.skew-10deg': {
-          transform: 'skewY(-10deg)',
-        },
-      }
-    }),
+    require('tailwind-scrollbar-hide')
   ],
 }
 

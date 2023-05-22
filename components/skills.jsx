@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='w-full h-full relative flex bg-[#2c3237] rounded-[4rem] p-20 text-[#ABDAFC]'>
+    <div className='w-full h-full relative flex bg-[#2c3237] rounded-[4rem] p-20 text-[#ABDAFC]' id = 'intro'>
         <div className='flex items-start justify-start w-2/3 flex-col'>
             <h2 className='font-sonder text-7xl'>
                 Hey, I am Gitansh
