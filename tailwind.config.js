@@ -20,6 +20,7 @@ module.exports = {
         marquee: 'marquee 20s linear infinite',
         marquee2: 'marquee2 20s linear infinite',
         spinner: 'spinner 10s linear infinite',
+        expand: 'expand 0.5s linear forwards',
       },
       keyframes: {
         marquee: {
@@ -33,6 +34,11 @@ module.exports = {
         spinner: {
           '0%': { transform: 'rotate(0deg) scale(4)' },
           '100%': { transform: 'rotate(360deg) scale(4)' },
+        },
+        expand: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(5)' },
+          '100%': { transform: 'scale(1)', opacity: 0 },
         },
       },
     },
