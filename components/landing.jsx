@@ -8,14 +8,14 @@ const Landing = () => {
             <h1 className='text-8xl text-[#FDE8D0] font-newake'>This is Gitansh</h1>
             <p className='text-2xl font-sonder text-[#FDE8D0]'>Human version of the 💯 emoji</p>
         </div>
-        {console.log("Hehe Welcome to my site. Turns out iske liye photo dhundna take more time than bumble")}
+        {console.log("Hehe Welcome to my site. Photo searching is hard")}
         <div className='h-2/3 grid-cols-2 grid gap-2 w-full py-2'>
             <a href="#intro">
                 <div className='h-full relative bg-[#FF8C42] w-full rounded-[4rem] flex gap-4 items-center justify-start overflow-x-hidden whitespace-nowrap group transition-all duration-300 ease-in-out group hover:scale-95 hover:cursor-pointer'>
                     <span className='absolute top-10 left-20 font-bold text-3xl font-poppins'>
                         What I Do
                     </span>
-                    <img src='/images/gm.png' className='absolute group-hover:scale-[4] transition-all duration-300 ease-in-out top-9 right-20 w-12 h-12 rounded-full group-hover:right-[45%] group-hover:top-[40%] group-hover:animate-spinner' />
+                    <img src='/images/logo.png' className='absolute group-hover:scale-[4] transition-all duration-300 ease-in-out top-9 right-20 w-12 h-12 rounded-full group-hover:right-[45%] group-hover:top-[40%] group-hover:animate-spinner' />
                     <span className='text-7xl text-white whitespace-nowrap font-sonder font-bold gap-2 flex animate-marquee group-hover:hidden transition-all duration-300 ease-in-out '>
                         <span> | Frontend</span>
                         <span>Developer</span>
