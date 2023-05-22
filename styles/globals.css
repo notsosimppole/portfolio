@@ -1,3 +1,35 @@
 @tailwind base; 
 @tailwind components; 
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Sonder';
+    src: url('/fonts/SonderRegular.woff2') format('woff2'),
+        url('/fonts/SonderRegular.woff') format('woff'),
+        url('/fonts/SonderRegular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newake';
+    src: url('/fonts/NewakeDemo.woff2') format('woff2'),
+        url('/fonts/NewakeDemo.woff') format('woff'),
+        url('/fonts/NewakeDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
