@@ -8,6 +8,7 @@ const Landing = () => {
             <h1 className='text-8xl text-[#FDE8D0] font-newake'>This is Gitansh</h1>
             <p className='text-2xl font-sonder text-[#FDE8D0]'>Human version of the 💯 emoji</p>
         </div>
+        {console.log("Hehe Welcome to my site. Turns out iske liye photo dhundna take more time than bumble")}
         <div className='h-2/3 grid-cols-2 grid gap-2 w-full py-2'>
             <a href="#intro">
                 <div className='h-full relative bg-[#FF8C42] w-full rounded-[4rem] flex gap-4 items-center justify-start overflow-x-hidden whitespace-nowrap group transition-all duration-300 ease-in-out group hover:scale-95 hover:cursor-pointer'>

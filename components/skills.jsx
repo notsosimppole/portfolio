@@ -13,7 +13,7 @@ const Skills = () => {
             </p>
         </div>
         <div className='w-1/3 flex items-center justify-center'>
-            Add Photo Here
+            <img src='/images/me.jpg' className='w-full aspect-square object-cover object-bottom rounded-3xl' />
         </div>
     </div>
   )
