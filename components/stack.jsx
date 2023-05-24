@@ -13,25 +13,25 @@ const Stack = () => {
                     <p className='text-sm md:text-lg font-thin text-center'>(My bread and butter)</p>
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/react.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/react.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/nextjs.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/nextjs.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/tailwindcss.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/tailwindcss.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/typescript.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/typescript.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/nodejs.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/nodejs.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/astro.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/astro.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/wordpress.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/wordpress.svg' className='w-16 h-16 opacity-70' />
                 </div>
             </div>
             <div className='grid gap-2 grid-cols-3 md:grid-cols-5 lg:grid-cols-9 pt-2'>
@@ -40,22 +40,22 @@ const Stack = () => {
                     <p className='text-sm md:text-lg font-thin text-center'>(For my ML needs)</p>
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/python.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/python.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/tf.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/tf.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/opencv.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/opencv.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/scitkit.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/scitkit.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/numpy.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/numpy.svg' className='w-16 h-16 opacity-70' />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/pandas.svg' className='w-16 h-16 opacity-60' />
+                    <img src='/images/pandas.svg' className='w-16 h-16 opacity-70' />
                 </div>
             </div>
             <div className='grid gap-2 grid-cols-3 md:grid-cols-5 lg:grid-cols-9 py-2'>
@@ -64,16 +64,16 @@ const Stack = () => {
                     <p className='text-sm md:text-lg font-thin text-center'>(Miscellaneous is long)</p>
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/matlab.svg' className='w-16 h-16 opacity-60' alt="matlab" />
+                    <img src='/images/matlab.svg' className='w-16 h-16 opacity-70' alt="matlab" />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/vhdl.svg' className='w-16 h-16 opacity-60' alt="digital electronics" />
+                    <img src='/images/vhdl.svg' className='w-16 h-16 opacity-70' alt="digital electronics" />
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/git.svg' className='w-16 h-16 opacity-60' alt = "git"/>
+                    <img src='/images/git.svg' className='w-16 h-16 opacity-70' alt = "git"/>
                 </div>
                 <div className='py-6 rounded-xl flex flex-col items-center justify-center bg-[#4a4a4a3f] hover:scale-95 duration-300 ease-in-out transition-all'>
-                    <img src='/images/ltspice.svg' className='w-16 h-16 opacity-60' alt = "analog"/>
+                    <img src='/images/ltspice.svg' className='w-16 h-16 opacity-70' alt = "analog"/>
                 </div>
             </div>
         </div>
