@@ -21,8 +21,8 @@ module.exports = {
         marquee2: 'marquee2 20s linear infinite',
         spinner: 'spinner 10s linear infinite',
         expand: 'expand 0.5s linear forwards',
-        marquee3: 'marquee3 2s linear infinite',
-        marquee4: 'marquee4 2s linear infinite',
+        marquee3: 'marquee3 20s linear infinite',
+        marquee4: 'marquee4 20s linear infinite',
       },
       keyframes: {
         marquee: {
