@@ -21,6 +21,8 @@ module.exports = {
         marquee2: 'marquee2 20s linear infinite',
         spinner: 'spinner 10s linear infinite',
         expand: 'expand 0.5s linear forwards',
+        marquee3: 'marquee3 2s linear infinite',
+        marquee4: 'marquee4 2s linear infinite',
       },
       keyframes: {
         marquee: {
@@ -28,6 +30,14 @@ module.exports = {
           '100%': { transform: 'translateX(-100%)' },
         },
         marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        marquee3: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee4: {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },

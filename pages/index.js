@@ -8,7 +8,7 @@ import Contact from '../components/contact'
 export default function Home() {
   return (
     // remove scrollbar from div
-    <div className='h-full w-full bg-black text-white font-poppins scrollbar-hide'>
+    <div className='h-full w-full bg-black text-white font-poppins scrollbar-hide p-2 md:p-0'>
       <Head>
         <title>Gitansh Mehta - Frontend Dev</title>
       </Head>

@@ -18,19 +18,19 @@ const Projects = () => {
         'Aahvaan is the annual sports fest of DTU hosted by the Sports Council of DTU. Developed in NextJS and TailwindCSS. Hosted on Vercel. Backend was developed on MongoDB and ExpressJS.'
     ]
   return (
-    <div className='w-full h-full relative flex flex-col bg-[#252a25] rounded-[4rem] p-20 mt-2 text-[#e2e2e2] gap-8' id='projects'>
-        <h2 className='font-sonder text-7xl'>
+    <div className='w-full h-full relative flex flex-col bg-[#252a25] rounded-[4rem] p-8 md:p-12 lg:p-20 mt-2 text-[#e2e2e2] gap-8' id='projects'>
+        <h2 className='font-sonder text-center sm:text-left text-4xl sm:text-6xl md:text-7xl'>
             Projects
         </h2>
         <div className='grid grid-cols-5 w-full'>
-            <div className='flex flex-col text-7xl font-newake w-full gap-8 col-span-3'>
-                <span className='text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(0)}><span className='text-sm'>01.</span> <a href="https://fresources.tech" target='_blank' rel='noreferrer'>Fresources</a></span>
-                <span className='text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(1)}><span className='text-sm'>02.</span> <a href="https://thetapharma.com/" target='_blank' rel='noreferrer'>Theta Pharmaceuticals</a></span>
-                <span className='text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(2)}><span className='text-sm'>03.</span> <a href="https://techweek.ieeedtu.in/" target='_blank' rel='noreferrer'>TechWeek by IEEE</a></span>
-                <span className='text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(3)}><span className='text-sm'>04.</span> <a href="https://spotify-web-controller-iota.vercel.app/" target='_blank' rel='noreferrer'> Spotify Clone </a></span>
-                <span className='text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(4)}><span className='text-sm'>05.</span> <a href="https://aahvan-2023.vercel.app/" target='_blank' rel='noreferrer'>Aahvaan DTU </a></span>
+            <div className='flex flex-col text-3xl md:text-7xl font-newake w-full gap-6 md:gap-8 col-span-5 lg:col-span-3'>
+                <span className='text-[#82e28f] md:text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(0)}><span className='text-sm'>01.</span> <a href="https://fresources.tech" target='_blank' rel='noreferrer'>Fresources</a></span>
+                <span className='text-[#82e28f] md:text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(1)}><span className='text-sm'>02.</span> <a href="https://thetapharma.com/" target='_blank' rel='noreferrer'>Theta Pharmaceuticals</a></span>
+                <span className='text-[#82e28f] md:text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(2)}><span className='text-sm'>03.</span> <a href="https://techweek.ieeedtu.in/" target='_blank' rel='noreferrer'>TechWeek by IEEE</a></span>
+                <span className='text-[#82e28f] md:text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(3)}><span className='text-sm'>04.</span> <a href="https://spotify-web-controller-iota.vercel.app/" target='_blank' rel='noreferrer'> Spotify Clone </a></span>
+                <span className='text-[#82e28f] md:text-[#487c4f] hover:text-[#82e28f] flex items-start gap-2 w-full' onMouseEnter = {() => setProj(4)}><span className='text-sm'>05.</span> <a href="https://aahvan-2023.vercel.app/" target='_blank' rel='noreferrer'>Aahvaan DTU </a></span>
             </div>
-            <div className='col-span-2 w-full'>
+            <div className='col-span-2 w-full hidden md:block'>
                 <Card img={imgList[proj]?? null} txt = {textList[proj] ?? null} />
             </div>
         </div>

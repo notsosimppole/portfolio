@@ -7,7 +7,7 @@ export default function Document() {
         <meta name="description" content="Next.js TailwindCSS Starter" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&family=Nunito&family=Poppins&family=Raleway&display=swap" rel="stylesheet" />
       </Head>
       <body className='scrollbar-hide scroll-smooth'>
